@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!-- saved from url=(0048)http://127.0.0.1:5500/google-homepage/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Google</title>
+    <link rel="stylesheet" href="./Google_files/styles.css">
+  </head>
+  <body>
+    <ul class="nav">
+      <li>
+        <a href="https://about.google/?fg=1&amp;utm_source=google-US&amp;utm_medium=referral&amp;utm_campaign=hp-header">About</a>
+      </li>
+      <li>
+        <a href="https://store.google.com/US?utm_source=hp_header&amp;utm_medium=google_ooo&amp;utm_campaign=GS100042&amp;hl=en-US">Store</a>
+      </li>
+      <li>
+        <a href="https://mail.google.com/mail/&amp;ogbl">Gmail</a>
+      </li>
+      <li>
+        <a href="https://www.google.com/imghp?hl=en&amp;ogbl">Images</a>
+    </li>
+    </ul>
+      <img id="google-logo" src="./Google_files/googlelogo_color_272x92dp.png" alt="Google Logo">
+      <input id="google-search-bar" type="text" name="search">
+      <div class="btn-group">
+        <button type="submit">Google Search</button>
+        <button type="submit">I'm Feeling Lucky</button>
+      </div>
+      
+    <div id="discover-div">
+      <a href="https://www.google.com/url?q=https://shopping.google.com/m/bestthings/%3Futm_source%3Ddigital%26utm_medium%3DHPP%26utm_campaign%3Dgsg_middle_desktop_en&amp;source=hpp&amp;id=19023719&amp;ct=3&amp;usg=AFQjCNEo6qNzdJQ5WswP97b7DvEIlkE0DA&amp;sa=X&amp;ved=0ahUKEwiF5ZnUvPLvAhXaElkFHZbACyMQ8IcBCBA">Discover 1,000 top products, from what's popular on the web</a>
+    </div>
+    <ul class="nav">
+      <li>
+        <a href="https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&amp;utm_source=google.com&amp;utm_medium=referral&amp;utm_campaign=google_hpafooter&amp;fg=1">Advertising</a>
+      </li>
+      <li><a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&amp;utm_source=google.com&amp;utm_medium=referral&amp;utm_campaign=google_hpbfooter&amp;fg=1">Business</a>
+      </li>
+        <li><a href="https://google.com/search/howsearchworks/?fg=1">How Search works</a>
+        </li>
+        <li><a href="https://sustainability.google/commitments/?utm_source=googlehpfooter&amp;utm_medium=housepromos&amp;utm_campaign=bottom-footer&amp;utm_content=">Carbon neutral since 2007</a>
+        </li>
+        <li><a href="https://policies.google.com/privacy?hl=en&amp;fg=1">Privacy</a>
+        </li>
+        <li><a href="https://policies.google.com/terms?hl=en&amp;fg=1">Terms</a>
+        </li>
+        <li><a href="http://127.0.0.1:5500/google-homepage/index.html#Settings">Settings</a>
+        </li> 
+    </ul>
+  <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
