@@ -86,7 +86,7 @@ body {
   margin-right: auto;
 }
 
-#btn-group{
+#btn-group {
   margin: auto;
   display: flex;
   flex-direction: row;
@@ -104,6 +104,7 @@ body {
 }
 
 .bottom-nav {
+  text-align: center;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -120,4 +121,43 @@ body {
 
 .bottom-nav a:hover {
   text-decoration: underline;
+}
+
+#advertising {
+  float: left;
+  padding-left: 20px;
+  padding-right: 15px;
+}
+
+#business {
+  float: left;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#search-works {
+  float: left;
+  padding-left: 15px;
+}
+
+#carbon-neutral {
+  margin-left: -10%;
+}
+
+#settings {
+  float: right;
+  padding-right: 50px;
+  padding-left: 15px;
+}
+
+#terms {
+  float: right;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+#privacy {
+  float: right;
+  padding-left: 15px;
+  padding-right: 15px;
 }
