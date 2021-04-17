@@ -1,5 +1,7 @@
 body {
   background-color: hsl(0, 0%, 100%);
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
 }
 
 .top-nav {
@@ -78,7 +80,7 @@ body {
   margin-right: auto;
   max-width: 272px;
   max-height: 92px;
-  padding-bottom: 25px;
+  padding-bottom: 35px;
 }
 
 #google-search-bar {
@@ -86,8 +88,9 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 584px;
-  padding-top: 20px;
+  padding-top: 25px;
   border-radius: 25px;
+  border-color: hsla(0, 2%, 72%, 0.233);
 }
 
 .btn-group {
@@ -99,11 +102,25 @@ body {
 }
 
 #btn1 {
-  margin-right: 10px;
+  margin-right: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: hsla(0, 2%, 78%, 0.233);
 }
 
 #btn2 {
-  margin-left: 10px;
+  margin-left: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: hsla(0, 2%, 78%, 0.233);
 }
 .middle-section {
   position: absolute;
@@ -128,7 +145,7 @@ body {
 .bottom-nav a {
   text-align: center;
   text-decoration: none;
-  color: hsl(0, 0%, 0%);
+  color: hsl(0, 1%, 44%);
 }
 
 .bottom-nav a:hover {
