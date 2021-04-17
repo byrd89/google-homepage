@@ -78,21 +78,33 @@ body {
   margin-right: auto;
   max-width: 272px;
   max-height: 92px;
+  padding-bottom: 25px;
 }
 
 #google-search-bar {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 584px;
+  padding-top: 20px;
+  border-radius: 25px;
 }
 
-#btn-group {
+.btn-group {
   margin: auto;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  padding-top: 30px;
 }
 
+#btn1 {
+  margin-right: 10px;
+}
+
+#btn2 {
+  margin-left: 10px;
+}
 .middle-section {
   position: absolute;
   top: 25%;
